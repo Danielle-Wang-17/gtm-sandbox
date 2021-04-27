@@ -2,6 +2,18 @@
 <head>
     <meta name="description" content="Programmatic Support GTM Sandbox">
     <link rel="stylesheet" href="style.css">
+    
+    <!-- GTM Data Layer -->
+    <script>
+        dataLayer = [{
+          'pageCategory': 'home',
+          'visitorType': {
+              'user': 'support',
+              'purpose': 'testing'
+          }
+        }];
+      </script>
+    
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -15,6 +27,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQFSQSX"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    
     <div id="intro">
         <h1>Welcome to the Programmatic Support Sandbox!</h1>
         <p>
@@ -54,7 +67,7 @@
                     <br>
                     <input type="date" id="date-select" name="date-select">
                     <br>
-                    <input type="submit" value="Submit" class="button" formaction="#">
+                    <input type="submit" value="Submit" class="button">
                 </form>
             </div>
             <div id="form-2" class="form-div">
@@ -68,9 +81,10 @@
                     <br>
                     <input type="text" id="tea" name="tea" placeholder="Earl Grey">
                     <br>
-                    <input type="submit" value="Submit" class="button" formaction="#">
+                    <input type="submit" value="Submit" class="button">
                 </form>
             </div>
         </div>
+        <script src="scripts.js"></script>
     </div>
 </body>
