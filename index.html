@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <meta name="description" content="Programmatic Support GTM Sandbox">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NQFSQSX');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQFSQSX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="intro">
+        <h1>Welcome to the Programmatic Support Sandbox!</h1>
+        <p>
+            Below you'll find a few sections to demonstrate common elements that Zeta pixels may be placed on (in addition to the most common "Page View" which happens once this page is loaded).
+        <p>
+        <p>
+            Take a look at the Page Source to view the dataLayer to see what variables may (or may not) be available upon page load.
+        </p>
+    </div>
+    <div id="click-button-section">
+        <h2>Click / Button Sample</h2>
+        <p>Troubleshooting a GTM issue? Click on the boring or fancy link to view documentation (leads to the same article)</p>
+        <ul>
+            <li><a class="button" id="boring-link" href="https://boomtrain.atlassian.net/wiki/spaces/DSPSUPPORT/pages/859334218/Troubleshooting+DSP+Pixels+Implemented+in+Google+Tag+Manager" target="_blank">Boring Link</a></li>
+            <li><a class="button" id="fancy-link" href="https://boomtrain.atlassian.net/wiki/spaces/DSPSUPPORT/pages/859334218/Troubleshooting+DSP+Pixels+Implemented+in+Google+Tag+Manager" target="_blank">Fancy Link</a></li>
+        </ul>
+    </div>
+    <div id="form-section">
+        <h2>Form Sample</h2>
+        <p>
+            Note: This form does not store data outside of session and you will not actually be contacted.
+            Fill out the forms below to push additional values to the dataLayer!
+        </p>
+        <div class="flex-container">
+            <div id="form-1" class="form-div">
+                <h3>Contact Us</h3>
+                <form id="contact-us">
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="test@zetaglobal.com">
+                    <br>
+                    <label for="phone-number">Number:</label>
+                    <br>
+                    <input type="text" id="phone-number" name="phone-number" placeholder="555-555-5555">
+                    <br>
+                    <label for="date-select">When should we contact you?</label>
+                    <br>
+                    <input type="date" id="date-select" name="date-select">
+                    <br>
+                    <input type="submit" value="Submit" class="button" formaction="#">
+                </form>
+            </div>
+            <div id="form-2" class="form-div">
+                <h3>Favorite Things</h3>
+                <form id="fav-things">
+                    <label for="ice-cream">Favorite Ice Cream:</label>
+                    <br>
+                    <input type="text" id="ice-cream" name="ice-cream" placeholder="Rocky Road">
+                    <br>
+                    <label for="tea">Number:</label>
+                    <br>
+                    <input type="text" id="tea" name="tea" placeholder="Earl Grey">
+                    <br>
+                    <input type="submit" value="Submit" class="button" formaction="#">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
