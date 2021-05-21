@@ -1,4 +1,4 @@
-// Need to test if this works
+// Form Submit Listeners
 
 document.getElementById("form-1").addEventListener("submit", function(){
     dataLayer.push({
@@ -6,13 +6,12 @@ document.getElementById("form-1").addEventListener("submit", function(){
         'phone-number': document.getElementById("phone-number").value,
         'date-select': document.getElementById("date-select").value
     });
-    console.log(dataLayer);
 });
 
 document.getElementById("form-2").addEventListener("submit", function(){
+    console.log(document.getElementById("ice-cream").value);
     dataLayer.push({
         'ice-cream': document.getElementById("ice-cream").value,
         'tea': document.getElementById("tea").value
     });
-    console.log(dataLayer);
 });
